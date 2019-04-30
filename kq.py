@@ -17,7 +17,7 @@ scheduler = BlockingScheduler(daemonic = False)
 
 def sendMail(msg,msg_to):
     msg_from = '240258108@qq.com'  # 发送方邮箱
-    passwd = 'urtnrloxhsslbjej'  # 填入发送方邮箱的授权码
+    passwd = ''  # 填入发送方邮箱的授权码
     msg_to = msg_to  # 收件人邮箱
 
     subject = "大人！忘记打卡啦"  # 主题
